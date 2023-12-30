@@ -101,16 +101,40 @@ h1{
 .lbLogin{
     font-weight: bold;
     color:#463939; 
-    margin-bottom: 5px;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 .login{
     height:25px; 
     width:350px; 
 }
 
+.checkBoxAcept{
+ display:flex;
+ margin-top: 20px;
+
+}
+
 .acepto{
-    margin-top:10px; 
-    width:15px; 
+    width:15px
+   
+}
+.lbAcepto{
+    margin-top: 4px;
+}
+
+span{
+    color:blue; 
+}
+
+
+.createAccount{
+  border-radius: 50px;
+  width:150px; 
+  height:40px; 
+  margin-top:10px; 
+  border-style: dashed;
+  border-color: #8e8b8b;
+  color:#8e8b8b
 }
 

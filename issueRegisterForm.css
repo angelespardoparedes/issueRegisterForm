@@ -1,3 +1,8 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .logo {
     width: 100%;
     height: 70px;
@@ -39,12 +44,73 @@ header {
 main{
     display:flex; 
     flex-direction: column;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
 .botones{
-    width:200px;
+    max-width:500px;
     height: 50px;
-    
-    
-
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.Ico{
+    height:20px;
+    width:20px; 
+    margin:2px;
+}
+
+button{
+    height: 30px; 
+    border-radius: 6px;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.botones a{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+}
+.btFacebook{
+    width: 200px;
+    background-color: rgb(57, 86, 151);
+    margin-left: 0;
+}
+
+.btGoogle{
+    Width:170px; 
+    background-color: rgb(23,107, 239);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.email form{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.lbLogin{
+    font-weight: bold;
+    color:#463939; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.login{
+    height:25px; 
+    width:350px; 
+}
+
+.acepto{
+    margin-top:10px; 
+    width:15px; 
+}
+

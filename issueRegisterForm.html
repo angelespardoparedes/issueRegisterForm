@@ -20,20 +20,25 @@
     </header>
 
     <main>
-        <h1>Create an issue account</h1>
+        <h1 class="create">Create an issue account</h1>
         <div class="botones">
-        <button class="btFacebook"> Facebook</button>
-        <button class="btGoogle"> Google </button>
+        <button class="btFacebook"> <a href="#"> <img class ="Ico Face" src="../imagenes/FaceIco.png"> Continue to Facebook</a></button>
+        <button class="btGoogle"> <a href="#"><img class="Ico Google" src="../imagenes/IcoGoogle.png">Sign in with Google</a> </button>
         </div> 
 
+        <div class="email">
+        <p>or with email</p>
+
         <form action="post">
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-            <Input:checkbox> I accept the Terms of Service and the Professional Terms of Service.</Input:checkbox>
+            <label class="lbLogin" for="email">Email </label>
+            <input class ="login"type="email" name="email" id="email">
+            <label class="lbLogin" for="password">Password</label>
+            <input class="login"type="password" name="password" id="password">
+            <input class="acepto"type="checkbox" id="acepto" name="acepto"> 
+              <label class="lbAcepto" for="acepto">I accept the <span>Terms of Service</span> and the <span>Professional Terms of Service </span></label>
             <input type="button" name="button" placeholder="CREATE ACCOUNT">
         </form>
+        </div>
     </main>
     <footer>
        <p>Issu inc.</p> 

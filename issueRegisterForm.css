@@ -6,16 +6,17 @@
 .logo {
     width: 100%;
     height: 70px;
-    margin: 15px;
+    margin: -6px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 20px;
    
 }
 .logo img{ 
-    width:50px; 
-    height:50px; 
+    width:40px; 
+    height:40px; 
 }
 
 .logo h3{
@@ -32,13 +33,18 @@ header {
     justify-content: space-between;
     max-width: 1200px;
     min-width: 300px;
-    border-bottom: #8e8b8b;
+    border-bottom: #bebaba;
     border-bottom-style: ridge;
     border-width: 1px;
 }
 
 .headerSignIn{
     height: 65px;
+    font-size:12px; 
+}
+.headerSignIn p{
+    margin-bottom: 5px;
+    width:94px; 
 }
 
 main{
@@ -137,4 +143,45 @@ span{
   border-color: #8e8b8b;
   color:#8e8b8b
 }
+
+
+
+footer{
+    border-top: #bebaba;
+    border-top-style: ridge;
+    border-width: 1px;
+    margin-top: 55px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pie{
+    margin-left: 20px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    color:#8e8b8b;
+    font-size: 13px;
+    
+}
+
+.linksFooter{
+    margin-left: 80px;
+    list-style: none;
+    display: flex;
+
+}
+
+.linksFooter a{
+    text-decoration: none;
+    color: #8e8b8b;
+    
+}
+.linkpie{
+    margin-left: 20px;
+}
+
+
 
